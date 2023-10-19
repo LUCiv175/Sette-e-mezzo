@@ -1,0 +1,60 @@
+img{
+    height: 20vh;
+}
+body{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 0;
+    background-image: url(https://images.pexels.com/photos/1796794/pexels-photo-1796794.jpeg?cs=srgb&dl=pexels-kendall-hoopes-1796794.jpg&fm=jpg);
+    background-size: cover;
+    color: antiquewhite;
+}
+#gioco{
+    margin-top: 1vh;
+    background-color: rgba(0, 0, 0, 0.486);
+    padding: 30px;
+    padding-left: 10vw;
+    padding-right: 10vw;
+    border-radius: 15px;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+} 
+input[type="submit"], input[type="button"]{
+    -webkit-appearance: none;
+    background-color: rgb(171,103,3);
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    color: rgb(27,6,5);
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+input[type="submit"]:hover, input[type="button"]:hover{
+    -webkit-appearance: none;
+     background-color: rgb(27,6,5);
+     color: antiquewhite;
+     transition: 0.5s;
+     cursor: pointer;
+     padding-left: 15px;
+     padding-right: 15px;
+}
+#risultato{
+    color: rgb(171,103,3);
+}
+img{
+    margin-right: 5px;
+}
+#stats{
+    background-color: rgba(0, 0, 0, 0.486);
+    padding-left: 35vw;
+    padding-right: 35vw;
+    border-radius: 15px;
+}
